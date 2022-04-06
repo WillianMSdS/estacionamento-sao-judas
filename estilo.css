@@ -1,5 +1,47 @@
-body {
-    background-color: white;
-    color: blue;
-    font-size: "Roboto Mono" , monospace ;
+body{
+    background-color: #efefbb;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(83, 157, 175), rgb(80, 92, 194));
+
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+
+}
+
+p{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 25px; 
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.figuras{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    height: 200px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+    opacity: 0.7;
+}
+
+.figuras:hover{
+    transform: scale(1.1);
+
+}
+
+.main{
+    text-align: center;
 }
